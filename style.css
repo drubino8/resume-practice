@@ -1,0 +1,57 @@
+@media print {
+    /* Reset default styles */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        line-height: 1.5;
+        color: #000;
+    }
+
+    h1, h2, li {
+        color: red;
+    }
+    }
+    
+    /* Add custom styles for printing */
+    .header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .content {
+        margin-bottom: 20px;
+    }
+
+    .section {
+        margin-bottom: 20px;
+    }
+
+    .section-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .section-content {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
